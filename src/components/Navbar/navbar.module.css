@@ -1,0 +1,81 @@
+.navbar {
+
+}
+
+.container {
+    position: fixed;
+    background-color: #ffffff;
+    top: 0;
+    left: -100%;
+    height: 100vh;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: left 0.3s ease-in;
+}
+.container.active {
+    left: 0;
+}
+.nav {
+
+}
+.list {
+    font-size: 1.5rem;
+    list-style: none;
+    text-transform: uppercase;
+}
+.list li {
+    cursor: pointer;
+}
+.list li:hover {
+    color: blueviolet;
+}
+.list li + li {
+    margin-top: .75rem;
+}
+.close {
+    position: absolute;
+    top: 2rem;
+    right: 3rem;
+    cursor: pointer;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.close svg {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.burger {
+    cursor: pointer;
+    width: 2rem;
+    height: 2rem;
+}
+.burger svg {
+    height: 2rem;
+    width: 2rem;
+}
+
+@media (min-width: 768px) {
+    .burger {
+        display: none;
+    }
+    .close {
+        display: none;
+    }
+    .container {
+        position: initial;
+        height: unset;
+        width: unset;
+    }
+    .list {
+        text-transform: initial;
+        font-size: 1rem;
+        display: flex;
+    }
+    .list li + li {
+        margin-top: 0;
+        margin-left: 1rem;
+    }
+}
