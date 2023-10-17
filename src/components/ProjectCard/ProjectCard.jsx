@@ -7,7 +7,7 @@ const ProjectCard = ({image, name, description, stack, github, deploy}) => {
     return (
         <div className={cl.card}>
             <div className={cl.image}>
-                <img src={image} alt="shikimori"/>
+                <img src={image} alt={name}/>
             </div>
             <h4 className={cl.head}>{name}</h4>
             <div className={cl.descr}>{description}</div>

@@ -1,15 +1,19 @@
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     position: sticky;
     top: 0;
-    padding: 1.5rem 2rem;
     background-color: #ffffff;
-    font-weight: bold;
     -webkit-box-shadow: 0px 4px 24px 0px rgba(34, 60, 80, 0.1);
     -moz-box-shadow: 0px 4px 24px 0px rgba(34, 60, 80, 0.1);
     box-shadow: 0px 4px 24px 0px rgba(34, 60, 80, 0.1);
+}
+.container {
+    display: flex;
+    max-width: var(--max-width);
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem var(--inline-padding);
+    font-weight: bold;
 }
 .logo h3 {
     display: inline;
@@ -18,4 +22,10 @@
 }
 .logo span {
     color: var(--text-color-secondary);
+}
+
+@media (min-width: 576px) {
+    .container {
+        padding-inline: var(--inline-padding-desktop);
+    }
 }
