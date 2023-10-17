@@ -1,0 +1,39 @@
+.about {
+    max-width: var(--max-width);
+    background-color: var(--background-color-primary);
+}
+.container {
+    padding: 2rem var(--inline-padding);
+    text-align: center;
+}
+.container h3 {
+    color: var(--color-active);
+    font-size: 1rem;
+    margin-bottom: .5rem;
+}
+.container h2 {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+}
+.container p {
+    margin-inline: auto;
+    max-width: 50rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: var(--text-color-secondary);
+}
+
+@media (min-width: 576px) {
+    .container {
+        padding: 3rem var(--inline-padding-desktop);
+    }
+    .container h3 {
+        font-size: 1.2rem;
+    }
+    .container h2 {
+        font-size: 2rem;
+    }
+    .container p {
+        font-size: 1.1rem;
+    }
+}
