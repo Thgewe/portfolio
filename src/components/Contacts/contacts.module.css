@@ -1,0 +1,36 @@
+.contacts {
+    background-color: var(--background-color-primary);
+}
+.container {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: var(--inline-padding);
+    text-align: center;
+}
+.container h3 {
+    color: var(--color-active);
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+.list {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+.list li {
+    display: inline-block;
+    cursor: copy;
+    transition: color .2s;
+}
+.list li + li {
+    margin-top: .5rem
+}
+.list li:hover {
+    color: var(--color-active)
+}
+.list li > span {
+    color: var(--text-color-primary);
+    font-weight: 500;
+}
