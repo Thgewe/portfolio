@@ -1,0 +1,27 @@
+.footer {
+    background-color: var(--background-color-primary-dark);
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: var(--max-width);
+    margin: 0 auto;
+    align-items: center;
+    color: var(--text-color-primary-dark);
+    padding: 2rem var(--inline-padding) 2.5rem;
+}
+.container h3 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+.links {
+    display: flex;
+    list-style: none;
+}
+.links li + li {
+    margin-left: .5rem;
+}
+.links li svg {
+    width: 2.5rem;
+    height: 2.5rem;
+}

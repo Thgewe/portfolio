@@ -3,11 +3,13 @@
     --font-main: 'Roboto', sans-serif;
     --text-color-primary: #2d2e32;
     --text-color-secondary: #767676;
+    --text-color-primary-dark: #ffffff;
 
     --color-active: #147efb;
 
     --background-color-primary: #ffffff;
     --background-color-secondary: #f9f9f9;
+    --background-color-primary-dark: #2d2e32;
 
     --inline-padding: 1rem;
     --inline-padding-desktop: 1.5rem;
