@@ -14,7 +14,7 @@ const Home = () => {
             <section id={'home'} className={cl.home}>
                 <div className={cl.descr}>
                     <h1>Front-End <span>React</span> Developer</h1>
-                    <p className={cl.text}>Hi, I'm Viktor Khankhatov. A Front-end React Developer from Russia, the Republic of Buryatia, Ulan-Ude</p>
+                    <p className={cl.text}>Hi, I'm Viktor Khankhatov. A Front-end React Developer from Russia, Tomsk</p>
                     <div className={cl.links}>
                         <a href={'https://github.com/Thgewe'}><GitHub title="GitHub"/></a>
                     </div>
