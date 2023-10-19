@@ -5,7 +5,7 @@ import projects from "../../utils/projects";
 
 const Projects = () => {
     return (
-        <section className={cl.projects}>
+        <section id={'projects'} className={cl.projects}>
             <div className={cl.container}>
                 <h3>PROJECTS</h3>
                 {projects.map(({
@@ -16,6 +16,7 @@ const Projects = () => {
                                    github,
                                    deploy,
                 }) => <ProjectCard
+                    key={name}
                     image={image}
                     name={name}
                     description={description}

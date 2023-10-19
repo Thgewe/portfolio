@@ -3,13 +3,13 @@
     background-color: var(--background-color-primary);
 }
 .container {
-    padding: 2rem var(--inline-padding);
+    padding: var(--header-height) var(--inline-padding) 2rem;
     text-align: center;
 }
 .container h3 {
     color: var(--color-active);
     font-size: 1rem;
-    margin-bottom: .5rem;
+    margin-block: .5rem;
 }
 .container h2 {
     font-size: 1.75rem;
@@ -25,7 +25,7 @@
 
 @media (min-width: 576px) {
     .container {
-        padding: 3rem var(--inline-padding-desktop);
+        padding: var(--header-height) var(--inline-padding-desktop) 3rem;
     }
     .container h3 {
         font-size: 1.2rem;

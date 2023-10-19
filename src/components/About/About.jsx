@@ -3,7 +3,7 @@ import cl from './about.module.css';
 
 const About = () => {
     return (
-        <section className={cl.about}>
+        <section id={'about'} className={cl.about}>
             <div className={cl.container}>
                 <h3>ABOUT ME</h3>
                 <h2>Front-End developer</h2>

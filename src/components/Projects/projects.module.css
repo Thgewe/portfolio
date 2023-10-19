@@ -1,6 +1,7 @@
 .projects {
     background-color: var(--background-color-secondary);
-    padding-block: 1rem;
+    padding-top: var(--header-height);
+    padding-bottom: 1rem;
 }
 .container {
     max-width: 50rem;

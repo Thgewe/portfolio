@@ -1,4 +1,5 @@
 :root {
+    --header-height: 5rem;
     --max-width: 1400px;
     --font-main: 'Roboto', sans-serif;
     --text-color-primary: #2d2e32;

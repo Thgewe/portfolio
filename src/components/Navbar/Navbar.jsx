@@ -33,10 +33,10 @@ const Navbar = () => {
                 </div>
                 <nav className={cl.nav}>
                     <ul className={cl.list}>
-                        <li><a href={'#'} onClick={closeMenu}>Home</a></li>
-                        <li><a href={'#'} onClick={closeMenu}>About</a></li>
-                        <li><a href={'#'} onClick={closeMenu}>Projects</a></li>
-                        <li><a href={'#'} onClick={closeMenu}>Contact</a></li>
+                        <li><a href={'#top'} onClick={closeMenu}>Home</a></li>
+                        <li><a href={'#about'} onClick={closeMenu}>About</a></li>
+                        <li><a href={'#projects'} onClick={closeMenu}>Projects</a></li>
+                        <li><a href={'#contacts'} onClick={closeMenu}>Contact</a></li>
                     </ul>
                 </nav>
             </div>

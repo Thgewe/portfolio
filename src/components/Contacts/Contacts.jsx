@@ -13,7 +13,7 @@ const Contacts = () => {
             );
     }
     return (
-        <section className={cl.contacts}>
+        <section id={'contacts'} className={cl.contacts}>
             <div className={cl.container}>
                 <h3>CONTACT</h3>
                 <ul className={cl.list} onClick={copyOnClick}>
